@@ -6,6 +6,10 @@
   "private": true,
   "license": "UNLICENSED",
   "main": "dist/main.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mudi25/default-app.git"
+  },
   "scripts": {
     "build": "rm -rf dist && tsc -p tsconfig.build.json",
     "gcp-build": "npm run build",
